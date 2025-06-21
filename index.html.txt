@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rumos Transf & Tour - Seu destino começa aqui</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Rumos Transf & Tour</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#destinos">Destinos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma agência especializada em turismo receptivo nos Ingleses, Florianópolis.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Transfers do aeroporto</li>
+      <li>City tours guiados</li>
+      <li>Passeios e trilhas</li>
+      <li>Eventos</li>
+    </ul>
+  </section>
+
+  <section id="destinos">
+    <h2>Destinos</h2>
+    <p>Explore os principais pontos da Ilha da Magia com a Rumos Transf & Tour!</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form onsubmit="return enviarWhatsApp(event)">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="email" id="email" placeholder="Seu e-mail" required />
+      <textarea id="mensagem" placeholder="Mensagem" rows="4" required></textarea>
+      <button type="submit">Solicitar Orçamento</button>
+    </form>
+    <a class="btn-whatsapp" href="https://wa.me/5548988788879" target="_blank">Chamar no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rumos Transf & Tour. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
